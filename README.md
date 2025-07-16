@@ -14,26 +14,25 @@
 ## 📁 Project Structure
 
 TRAVIS/
-├── backend/                         # API logic (Flask/Node.js/etc.)
-│   └── api.py                       # Connects both models and handles API endpoints
+├── backend/ # API logic (Flask/Node.js/etc.)
+│ └── api.py # Connects both models and handles API endpoints
 │
 ├── models/
-│   ├── query_response/             # Query-response model code and artifacts
-│   │   ├── query_model.ipynb
-│   │   └── dataset.json
-│   │      
-│   │
-│   ├── translation/                # English-Telugu translation model
-│   │   ├── translation_model.ipynb
-│   │   └── dataset.txt
-│   │
-│   └── combined/                   # Integrated logic for both models
-│       └── TRAVISTestingFinal.ipynb
+│ ├── query_response/ # Query-response model code and artifacts
+│ │ ├── query_model.ipynb
+│ │ └── dataset.json
+│ │
+│ ├── translation/ # English-Telugu translation model
+│ │ ├── translation_model.ipynb
+│ │ └── dataset.txt
+│ │
+│ └── combined/ # Integrated logic for both models
+│ └── TRAVISTestingFinal.ipynb
 │
-├── frontend/                       # React or basic HTML/CSS frontend
-│   └── src/
-│       └── App.jsx                 # User interface
+├── frontend/ # React or basic HTML/CSS frontend
+│ └── src/
+│ └── App.jsx # User interface
 │
 ├── .gitignore
 ├── .gitattributes
-└── README.md                       # You're reading this
+└── README.md # You're reading this
